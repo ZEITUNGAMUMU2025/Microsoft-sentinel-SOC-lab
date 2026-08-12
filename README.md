@@ -54,6 +54,16 @@ Hands-on SOC lab demonstrating Windows security event collection, KQL-based auth
 ```
 
 
+
+# INTRODUCTION
+The project uses a dedicated Azure environment for security monitoring and threat detection.
+Microsoft Sentinel was connected to the law-sentinel-soc-lab Log Analytics workspace, while the WIN-SOC-ENDPOINT Windows virtual machine serves as the monitored endpoint.
+
+![Microsoft Sentinel workspace and the WIN-SOC-ENDPOINT Azure virtual machine used in the lab.](https://i.imgur.com/LFUWnr8.jpeg).
+
+
+
+
 # 1. Log Ingestion Validation
 The first task was to determine whether Windows telemetry was actually
 reaching Sentinel.
